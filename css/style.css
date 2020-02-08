@@ -1,0 +1,163 @@
+.menu{
+font-size: 14px;
+line-height: 41px;
+color: #212121;
+font-family: 'Montserrat', sans-serif;
+font-weight: 400;
+font-weight: 900;
+display: flex;
+
+}
+.menu1:hover{
+color: #fed136;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.title{
+font-size: 25px;
+letter-spacing: -1px;
+line-height: 75px;
+color: #222222;
+font-family: 'Roboto Slab', serif;
+font-weight: 900;
+text-align: center;
+margin-top: 90px;
+}
+.subtitle{
+font-size: 20px;
+color: #777777;
+font-weight: 400;
+font-style: italic;
+text-align: center;
+margin-top: -30px;
+}
+.img{
+width: 39px;
+height: 38px;
+ margin-left: -62px;
+ margin-bottom: -14px;
+}
+.h2{
+font-size: 18px;
+letter-spacing: 0px;
+line-height: 75px;
+color: #222222;
+font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+text-align: center;
+}
+.p{
+width: 280px;
+height: 58px;
+font-size: 14px;
+letter-spacing: 0px;
+color: #777777;
+font-family: 'Roboto Slab', serif;
+font-weight: 400;
+text-align: center;
+margin-top: -20px;
+}
+.services{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.circle{
+   margin-left: 95px;
+   margin-bottom: -30px;
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin-top: -500px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font: 16px/100% Arial, Helvetica, sans-serif;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-us-wrapper {
+    background-color: #222222;
+    margin-top: 100px;
+}
+
+.input {
+    margin-top: 10px;
+    width: 455px;
+    height: 55px;
+}
+
+.textarea {
+    height: 203px;
+    width: 455px;
+    margin-top: 10px;
+    margin-right: 110px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.form-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.para {
+font-size: 16px;
+color: #777777;
+font-weight: 400;
+font-style: italic;
+text-align: center;
+}
+
+.h2-2 {   
+font-size: 40px;
+letter-spacing: -1px;
+color: #ffffff;
+font-family:  'Montserrat', sans-serif;
+font-weight: 700;
+text-align: center;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.button {
+    background-color: #fed136;
+    width: 240px;
+    height: 65px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.map{
+   margin-left: 40%;
+}
+
