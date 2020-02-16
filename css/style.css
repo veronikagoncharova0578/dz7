@@ -1,198 +1,225 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .menu {
-    font-size: 17px;
-    line-height: 41px;
-    color: #212121;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    font-weight: 900;
-    display: flex;
+  font-size: 17px;
+  line-height: 41px;
+  color: #212121;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-weight: 900;
+  display: flex;
+}
+.menu1 {
+  margin-left: 40px;
 }
 
 .menu1:hover {
-    color: #fed136;
+  color: #fed136;
 }
 
 .bl {
-    margin-left: 70px;
-    margin-right: 70px;
+  margin-left: 55px;
+  margin-right: 55px;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    margin: 50px;
-    margin-left: 240px;
-    margin-right: 200px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px;
+  margin-left: 240px;
+  margin-right: 200px;
 }
 
 .title {
-    font-size: 25px;
-    letter-spacing: -1px;
-    line-height: 75px;
-    color: #222222;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 900;
-    text-align: center;
-    margin-top: 20px;
+  font-size: 25px;
+  letter-spacing: -1px;
+  line-height: 75px;
+  color: #222222;
+  font-family: "Roboto Slab", serif;
+  font-weight: 900;
+  margin-top: 130px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
 }
 
 .subtitle {
-    font-size: 20px;
-    color: #777777;
-    font-weight: 400;
-    font-style: italic;
-    text-align: center;
-    margin-top: -30px;
+  font-size: 20px;
+  color: #777777;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: -30px;
+  display: flex;
+  justify-content: center;
 }
 
 .img {
-    width: 39px;
-    height: 38px;
-    margin-left: -62px;
-    margin-bottom: -13px;
+  width: 39px;
+  height: 38px;
+  margin-left: -62px;
+  margin-bottom: -13px;
 }
 
 .h2 {
-    font-size: 18px;
-    letter-spacing: 0px;
-    line-height: 75px;
-    color: #222222;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    text-align: center;
+  font-size: 18px;
+  letter-spacing: 0px;
+  line-height: 75px;
+  color: #222222;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  text-align: center;
 }
 
 .p {
-    width: 280px;
-    height: 58px;
-    font-size: 14px;
-    letter-spacing: 0px;
-    color: #777777;
-    font-family: 'Roboto Slab', serif;
-    font-weight: 400;
-    text-align: center;
-    margin-top: -20px;
+  width: 280px;
+  height: 58px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  color: #777777;
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  text-align: center;
+  margin-top: -20px;
 }
 
 .services1 {
-    display: flex;
-    align-items: center;
-    margin-top: 100px;
-    margin-left: 120px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 80px;
+  margin-left: 120px;
 }
 
 .circle {
-    margin-left: 95px;
-    margin-bottom: -30px;
+  margin-left: 95px;
+  margin-bottom: -30px;
 }
 
 .container {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1200px;
-    padding: 0 15px;
-    margin-top: -550px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    font: 16px/100% Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  font: 16px/100% Arial, Helvetica, sans-serif;
+  justify-content: center;
 }
 
 .contact-us {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-us-wrapper {
-    margin-top: 50px;
-    margin: 30px;
-    width: 1300px;
-    height: 500px;
-    margin-left: 130px;
+  margin-top: 120px;
+  width: 1400px;
+  height: 50%;
+  background-image: url(../img/MapImage.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
 }
 
 .input {
-    margin-top: 10px;
-    width: 455px;
-    height: 55px;
-    font-size: 10px;
-    letter-spacing: 0px;
-    color: #bbbbbb;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+  margin-top: 10px;
+  width: 455px;
+  height: 50px;
+  font-size: 10px;
+  letter-spacing: 0px;
+  color: #bbbbbb;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .textarea {
-    height: 203px;
-    width: 455px;
-    margin-top: 10px;
-    margin-right: 110px;
+  height: 210px;
+  width: 455px;
+  margin-top: 10px;
+  margin-right: 110px;
 }
 
 .left {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    margin-left: 10%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-right: 30px;
+  margin-left: 10%;
 }
 
 .form {
-    display: flex;
-    justify-content: center;
-    margin: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
 }
 
 .form-wrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .para {
-    font-size: 16px;
-    color: #777777;
-    font-weight: 400;
-    font-style: italic;
-    text-align: center;
+  font-size: 16px;
+  color: #777777;
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 75px;
 }
 
 .h2-2 {
-    font-size: 40px;
-    letter-spacing: -1px;
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    text-align: center;
+  font-size: 40px;
+  letter-spacing: -1px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 110px;
 }
 
 .right {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
 }
 
 .button {
-    background-color: #fed136;
-    width: 240px;
-    height: 65px;
-    color: white;
-    display: flex;
-    justify-content: center;
-    margin-left: 40%;
-    margin-top: 20px;
-    border: none;
-    outline: none;
+  background-color: #fed136;
+  width: 240px;
+  height: 65px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin-left: 40%;
+  margin-top: 30px;
+  border: none;
+  outline: none;
+  margin-bottom: 58px;
 }
 
 .map {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .services {
-    margin: 10px;
-    margin-bottom: 40px;
+  margin: 10px;
+  margin-bottom: 40px;
+}
+
+@media (max-widht: 540px) {
+  .services1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
